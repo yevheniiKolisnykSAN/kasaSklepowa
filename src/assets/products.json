@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Piwo Lech Premium",
+    "id": "001",
+    "price": 3.99
+  },
+  {
+    "name": "Ser Twarożkowy Hochland",
+    "id": "002",
+    "price": 7.49
+  },
+  {
+    "name": "Chleb Razowy Żytni",
+    "id": "003",
+    "price": 2.29
+  },
+  {
+    "name": "Kiełbasa Krakowska",
+    "id": "004",
+    "price": 12.99
+  },
+  {
+    "name": "Chłodnik Litewski",
+    "id": "005",
+    "price": 2.99
+  },
+  {
+    "name": "Barszcz Czerwony",
+    "id": "006",
+    "price": 1.99
+  },
+  {
+    "name": "Oscypek",
+    "id": "007",
+    "price": 9.99
+  },
+  {
+    "name": "Kapusta Kiszona",
+    "id": "008",
+    "price": 4.49
+  },
+  {
+    "name": "Placki Ziemniaczane",
+    "id": "009",
+    "price": 5.29
+  },
+  {
+    "name": "Gołąbki",
+    "id": "010",
+    "price": 8.99
+  },
+  {
+    "name": "Śledzie w Oleju",
+    "id": "011",
+    "price": 3.49
+  },
+  {
+    "name": "Zupa Grzybowa",
+    "id": "012",
+    "price": 2.79
+  },
+  {
+    "name": "Sok Marchewkowy",
+    "id": "013",
+    "price": 1.49
+  },
+  {
+    "name": "Pączki",
+    "id": "014",
+    "price": 3.29
+  },
+  {
+    "name": "Makowiec",
+    "id": "015",
+    "price": 6.99
+  },
+  {
+    "name": "Krokiety",
+    "id": "016",
+    "price": 5.49
+  },
+  {
+    "name": "Kapusta Zasmażana",
+    "id": "017",
+    "price": 3.79
+  },
+  {
+    "name": "Rogaliki Drożdżowe",
+    "id": "018",
+    "price": 4.99
+  }
+]

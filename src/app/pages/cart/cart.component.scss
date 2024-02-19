@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 30px;
+
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      margin-bottom: 0;
+    }
+
+    .submit-btn {
+      padding: 0 10px;
+    }
+  }
+
+  .quantity {
+    max-width: 85px;
+  }
+}

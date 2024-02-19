@@ -1,0 +1,16 @@
+<div class="cards">
+  @for (product of $products | async; track product.id) {
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>{{ product.name }} CENA</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image [src]="'assets/products-images/' + product.id + '.webp'" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>Cena - {{product.price | currency:"PLN" : 'symbol-narrow'}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button class="cart-btn" mat-flat-button color="primary" (click)="addToCart(product)">Dodać do koszyka</button>
+      </mat-card-actions>
+    </mat-card>
+  }
+</div>
