@@ -4,7 +4,10 @@
       <header class="header">
         <h1 class="title">Koszyk</h1>
 
-        <button class="submit-btn" mat-flat-button color="accent" (click)="submit()">Zapłacić</button>
+        <button class="submit-btn" mat-flat-button color="accent" (click)="submit()">
+          Zapłacić
+          ({{ products | sumPrice | currency:"PLN" : 'symbol-narrow'}})
+        </button>
       </header>
       <table mat-table [dataSource]="products" class="table">
         <ng-container matColumnDef="quantity">

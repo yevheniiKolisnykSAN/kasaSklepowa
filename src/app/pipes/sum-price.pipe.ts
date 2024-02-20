@@ -7,8 +7,12 @@ import {Product} from "../models/product"
 })
 export class SumPricePipe implements PipeTransform {
 
-  transform(product: Product): number {
-    return product.price * product.quantity!;
+  transform(products: Product | Product[]): number {
+    if (!Array.isArray(products)) {
+      return products.price * products.quantity!;
+    } else {
+      return products.reduce((acc, product) => acc + product.price * product.quantity!, 0);
+    }
   }
 
 }

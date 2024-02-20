@@ -89,7 +89,7 @@ export class CartComponent implements OnInit {
   }
 
   async submit() {
-    const result = await this.dialogService.submit();
+    const result = await this.dialogService.submit()
     if (result) this.cartService.clearAll()
   }
 }
